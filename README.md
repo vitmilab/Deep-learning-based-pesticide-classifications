@@ -23,6 +23,7 @@ The workflow includes:
 The notebook begins with the original master training dataset (masterlist as mentioned in the code).
 
 **2. GNN_Github.py**
+
 This script performs multi-label pesticide classification using a GINE-based Graph Neural Network.
 The four prediction classes are:
 1. Herbicide
@@ -31,17 +32,23 @@ The four prediction classes are:
 4. Microbicide
 
 **3. External_dataset_GNN.py**
+
 This script performs external validation of the trained GNN model.
 It reads the independent TPPT dataset, applies the trained model, and generates class predictions and prediction scores.
 
 ## Additional Files
 
 The larger datasets and prediction files are provided separately as additional files.
+
 _**File	Description**_
-**Additionalfile_1.csv**	Original master training dataset used as the input for the LSTM workflow
-**Additionalfile_2.csv**	Preprocessed dataset used for LSTM augmentation
-**Additionalfile_3.xlsx**	TPPT external dataset used as input for external validation
-**Additionalfile_4.xlsx**	Prediction output generated for the TPPT external dataset
+
+**Additionalfile_1.csv** - Original master training dataset used as the input for the LSTM workflow
+
+**Additionalfile_2.csv** - Preprocessed dataset used for LSTM augmentation
+
+**Additionalfile_3.xlsx** - TPPT external dataset used as input for external validation
+
+**Additionalfile_4.xlsx** - Prediction output generated for the TPPT external dataset
 
 ## File correspondence in the code
 
@@ -59,6 +66,7 @@ For reproducing the complete workflow, follow this order:
 ### Step 1 — LSTM-based data augmentation
 Run:
 LSTM_Github.ipynb
+
 Use Additionalfile_1.csv as the original training dataset which is mentioned as masterlist in the code. After the preprocessing step, produces Additional file 2.
 
 ### Step 2 — GINE-GNN classification
@@ -68,6 +76,7 @@ GNN_Github.py
 ### Step 3 — External validation
 Run:
 External_dataset_GNN.py
+
 Use Additionalfile_3.xlsx as the external dataset input.
 The script generates predictions and prediction scores for the external compounds. The corresponding prediction output is provided as Additionalfile_4.xlsx.
 
