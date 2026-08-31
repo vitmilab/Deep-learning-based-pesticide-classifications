@@ -92,27 +92,8 @@ Matplotlib
 
 ## Workflow
 
-Additional File 1 Original masterlist.csv
+<img width="651" height="517" alt="image" src="https://github.com/user-attachments/assets/8fe01064-3b07-4364-b3f8-d2b783f9a13e" />
 
- 
-LSTM_Github.ipynb
-
-
-LSTM-based augmentation
-
-
- Balanced augmented training dataset
-
-
-GNN_Github.py
-
-
-External_dataset_GNN.py  - Additional File 3 (TPPT.xlsx input)
-
-
-Additional File 4 (TPPT predictions)
-
-<img width="980" height="890" alt="image" src="https://github.com/user-attachments/assets/c53f129d-57f1-42b7-8b4e-184a6005634b" />
 
 
 
