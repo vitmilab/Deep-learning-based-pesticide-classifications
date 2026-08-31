@@ -94,33 +94,61 @@ Matplotlib
 
 Additional File 1
 Original masterlist.csv
+
         │
+        
         ▼
+        
 LSTM_Github.ipynb
+
         │
+        
         ├── Preprocessing - Additional File 2
+        
         ├── Train / validation / test preparation
+        
         │
+        
         ▼
+        
 LSTM-based augmentation
+
         │
+        
         ▼
+        
 Balanced augmented training dataset
+
         │
+        
         ▼
+        
 GNN_Github.py
+
         │
+        
         |
+        
         ├── GINE-GNN training
+        
         └── Model evaluation
+        
         │
+        
         ▼
+        
 External_dataset_GNN.py
+
         ▲
+        
         │
+        
 Additional File 3 (TPPT.xlsx input)
+
         │
+        
         ▼
+        
 Additional File 4 (TPPT predictions)
 
 
